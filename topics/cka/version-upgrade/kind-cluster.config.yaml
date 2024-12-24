@@ -5,6 +5,4 @@ kind: Cluster
 name: version-upgrade-cluster
 nodes:
 - role: control-plane
-  image: kindest/node:v1.25.1
-- role: worker
-  image: kindest/node:v1.25.1
+  image: kindest/node:v1.27.0
